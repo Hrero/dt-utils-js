@@ -1,0 +1,5 @@
+.tea
+.DS_Store
+.vscode
+debug.log
+node_modules

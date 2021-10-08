@@ -1,0 +1,23 @@
+{
+    "name": "dt-utils-js",
+    "version": "0.0.1",
+    "description": "",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "tsc && babel src -d lib",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@purtuga/esm-webpack-plugin": "^1.2.1",
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.12"
+    },
+    "dependencies": {
+        "@types/node": "^14.0.22",
+        "tslib": "^2.0.0"
+    }
+}
